@@ -11,6 +11,7 @@ public class Number_BinaryRepresentationOfN {
 
     public static int getCountOfOnes(int n) {
 
+
         String s = "";
         boolean result = n > 0;
 
@@ -26,6 +27,7 @@ public class Number_BinaryRepresentationOfN {
                 count++;
             }
         }
+
 
         return count;
     }
